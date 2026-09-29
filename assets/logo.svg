@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="32" y1="24" x2="224" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5A88FF"/>
+      <stop offset="1" stop-color="#2457D6"/>
+    </linearGradient>
+    <filter id="shadow" x="20" y="28" width="216" height="216" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#163C9A" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="#EEF3FF"/>
+  <g filter="url(#shadow)">
+    <rect x="34" y="34" width="188" height="188" rx="48" fill="url(#bg)"/>
+  </g>
+  <path d="M76 87h104M76 169h104" stroke="#BFD0FF" stroke-width="8" stroke-linecap="round" opacity=".72"/>
+  <text x="128" y="144" fill="white" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="58" font-weight="800" letter-spacing="-2" text-anchor="middle">001</text>
+</svg>

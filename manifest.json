@@ -1,0 +1,28 @@
+{
+  "id": "2b4e5c00-16cd-4242-8c2f-1d02c025a4c1",
+  "version": "1.2.0",
+  "platform": "all",
+  "arch": "all",
+  "name": "eagle-quick-rename",
+  "logo": "/logo.png",
+  "keywords": ["重命名", "编号", "批量", "rename", "sequence"],
+  "devTools": false,
+  "main": {
+    "url": "index.html",
+    "width": 560,
+    "height": 700,
+    "minWidth": 480,
+    "minHeight": 540,
+    "maxWidth": 840,
+    "maxHeight": 920,
+    "alwaysOnTop": false,
+    "frame": true,
+    "fullscreenable": false,
+    "maximizable": false,
+    "minimizable": true,
+    "resizable": true,
+    "backgroundColor": "#f4f6f8",
+    "multiple": false,
+    "runAfterInstall": false
+  }
+}
